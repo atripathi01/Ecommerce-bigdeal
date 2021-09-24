@@ -1,0 +1,802 @@
+/* navbar style  */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+/* font-family: 'Lora', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+/* font-family: 'Unica One', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color:#000000 ;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+  
+    
+}
+.Nav-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  color:#ffffff;
+
+
+
+}
+.Nav-container:link{
+    color: #ffffff;
+}
+
+
+.menu-bar{
+ margin-left: 2rem ;
+ font-size: 2rem;
+ background: none;
+ 
+
+}
+.nav-menu{
+    background-color: #000000;
+    border-right: 2px solid #ffffff;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    /* left: -100%; */
+    /* transition: 1s; */
+    color: #ffffff;
+    z-index: 0;
+
+}
+.navbar ul{
+    list-style: none;
+    color: #ffffff;
+}
+.menu{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nav-link{
+    font-size: 18px;
+    margin: 0 0.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.logo{
+    /* font-family: 'Abril Fatface', cursive;*/
+    letter-spacing: 2px; 
+    margin: auto 2rem;
+    align-items: center;
+    width: 80%;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    height: 2rem;
+    width: auto;
+    align-items: center;
+    position: relative;
+    list-style-type: none;
+
+    
+
+}
+.ecart{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.ecart:hover{
+    color:green;
+    text-decoration:none;
+}
+
+.nav-menu.active{
+    left: 0;
+    transition: 0.5s;
+    background-color: #000000;
+    color: #ffffff;
+    z-index: 10;
+}
+.nav-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0 8px 16px;
+    list-style: none;
+    height: 60px;
+    color: #ffffff;
+    
+}
+.nav-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    /* font-family: 'Antonio', sans-serif;
+    font-weight: 400; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Playfair Display', serif; */
+    letter-spacing: 2px;
+}
+
+.nav-text1{
+    border-bottom:2px solid #ffffff;
+}
+.nav-text a:hover{
+    background-color: #1a83ff;
+}
+.nav-menu-items{
+    width: 100%;
+    list-style-type: none;
+    color: #ffffff;
+    z-index: 1;
+  
+}
+.navbar-toogle{
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+
+}
+
+.back-btn{
+    font-size: 18px;
+    /* font-weight: 700; */
+    border-radius: 5px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    color: #ffffff;
+    padding: 0px 5px 0px 5px;
+}
+.back-btn a{
+    text-decoration: none;
+   
+
+}
+span {
+    margin-left:16px ;
+}
+.menu-bars{
+    font-size: 26px;
+}
+
+/* Login Page */
+
+
+.section-login{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.comp-login{
+    display: flex;
+     width: 400px ;
+     height: fit-content;
+     border: 2px solid rgb(233, 233, 92);
+     margin-top: 2rem;
+     margin-bottom: 15vh;
+ 
+     
+}
+.whole{
+    margin: 15px;
+    width: 100%;
+}
+.whole p{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+input{
+    width: 100%;
+    font-size: 14px;
+    
+}
+label{
+    font-size: 16px;
+    /* font-weight: bold; */
+    display: block;
+   
+}
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit].resis{
+      background-color: #ffffff;
+      border: 2px solid #000000;
+      color: #000000;
+      font-weight: 500;
+
+  }
+  input[type=submit].resis:hover{
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+    font-weight: 500;
+  }
+
+  
+  input[type=submit]:hover {
+    background-color: #000000;
+  }
+  #new-user{
+      font-size: 26px;
+  }
+  
+
+/* Resister page */
+
+.section-resi{
+    display: flex;
+    justify-content: center;
+}
+.comp-resister{
+    display: flex;
+     width: 600px ;
+     height: fit-content;
+     border: 2px solid rgb(233, 233, 92);
+     margin-top: 2rem;
+ 
+     
+}
+@media  (max-width:800px) {
+    .comp-resister{
+        width: 370px;
+    }
+    ul.Nav-container{
+        padding-left: 0;
+    }
+    
+}
+
+/* footer */
+.foo{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: row;
+    padding: 3rem 2rem;
+    font-size: 18px;
+    width: 100%;
+    background-color: #000000;
+    height: fit-content;
+    margin-bottom: 0;
+    color: #ffffff;
+    
+}
+@media screen and (max-width:580px){
+    .foo{flex-direction: column;}
+}
+.contact-link a{
+    /* font-family: 'Antonio', sans-serif; */
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-title{
+    font-family: 'Unica One', cursive;
+    font-weight: 100;
+    /* letter-spacing: 2px; */
+    font-size: 24px;
+}
+.contact-link{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    justify-content: space-between;
+    font-size: 26px;
+}
+
+.wrapper{
+    list-style: none;
+    color: #fff;
+}
+.listt{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+.listt:hover{
+  color: #fff;
+}
+.linklist{
+    color:#fff;
+}
+
+.my-contact{
+    padding: 1rem 1rem;
+}
+.location{
+    padding: 1rem 1rem;
+}
+.menue{
+    padding: 1rem 1rem;
+}
+
+.right-foo{
+    background-color:#000;
+    color:#fff;
+}
+/* //product page  */
+.onlineShopping{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    transition: 0.8s;
+    
+}
+.onlineShopping:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transform: scale(1.02);
+}
+.shoesImage{
+    height: 350px;
+    width: 700px;
+    /* background-image: url("/image/product.png"); */
+    /* background-image: url("/image/product.png"); */
+    background-color: #3f37c9;
+    
+    
+}
+
+.happiness {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: inherit;
+    align-items: center;
+    height: 348px;
+    font-size: xx-large;
+}
+
+.categoryNavbar{
+    margin-top: 9vh;
+    width: 100%;
+    min-height: 9vh;
+    max-width: 900px;
+    height: fit-content
+    
+    
+    
+}
+.centerNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #000;
+}
+
+.categoryNavWrapper{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+@media screen and (max-width:535px){
+    .categoryNavWrapper{
+        flex-direction: column;
+    }
+}
+ .category-btn{
+    font-family: 'Unica One', cursive;
+     outline: none;
+     border: none;
+     background-color: #fff;
+     font-size: 24px;
+     padding: .5rem 0.2rem;
+     transition: 0.5s;
+     font-weight: 700;
+     /* text-transform: uppercase; */
+     letter-spacing: 2px;
+ }
+ .category-btn:hover{
+    outline: none;
+    transform: scale(1.2);
+    color: green;
+    
+ }
+
+.item_page{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none;
+    z-index: 0;
+    top: 0;
+    border: none;
+    
+}
+.card{
+    position: relative;
+  display: block;
+  height: 100%;  
+  border-radius: 40px;
+  overflow: hidden;
+  text-decoration: none;
+  background-color: #fff;
+  
+}
+.card_image{
+    width: 100%;
+  height: auto;
+  transition: 2s;
+
+}
+.card_image:hover{
+    transform: scale(0.8);
+}
+.card_overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;      
+    border-radius: 40px 5px 0 0;    
+    background-color: #eae4e9;
+          
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+    
+  }
+  @media screen and (max-width:1100px){
+      .card_overlay{
+          transform: translateY(0);
+
+      }
+      .card:hover .card_overlay{
+          transform: scale(0.8);
+      }
+  }
+  
+  .card:hover .card_overlay {
+    transform: translateY(0);
+  }
+  
+  .img-box{
+      height:400px;
+      align-items: center;
+      display:flex;
+      justify-content:center;
+      z-index: 0;
+  }
+  .product_naam{
+      
+      
+      font-size: 30px;
+      font-family: 'Unica One', cursive;
+      list-style-type: none;
+      text-decoration: none;
+      color:#000;
+      text-transform: uppercase;
+  }
+  .for-margin{
+      margin-top: 41px;
+      margin-bottom: 41px;
+      margin-left: 5px;
+      margin-right: 5px;
+      
+  }
+  .par{
+      display: flex;
+      justify-content: space-between;
+
+  }
+  .cata{
+    font-family: 'Unica One', cursive;
+    font-size: 26px;
+    letter-spacing: 2px;
+    width: 100%;
+    border-bottom: 2px solid #000;
+    margin: 10px;
+    font-weight: 700;
+    z-index: 0;
+
+  }
+  .for-margin .prices{
+      font-size: 22px;
+      font-weight: 500;
+      color: #3f37c9;
+  }
+  .for-margin .rateing{
+      font-size: 22px;
+      font-weight: 500;
+      color: #008000;
+  }
+
+
+  /* //home page */
+  .ecart-im{
+      width:100%;
+      height: fit-content;
+      margin: 0;
+  }
+  .ecrt-im{
+      width: 100%;
+      height: auto;
+  }
+  .head-1{
+    width: 100%;
+    height:fit-content;
+    margin: 2rem 0;
+    align-items: center;
+    text-align: center;
+
+  }
+  .clas-center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      max-width: 1000px;
+      width: 100%;
+  }
+.center-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 900px; */
+    width: 100%;
+    margin: 3rem;
+
+}
+.center-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 900px; */
+    width: 100%;
+    margin: 3rem;
+
+}
+.center-section2{
+   
+    display: none;
+
+}
+
+.image-shoes{
+    max-width: 400px;
+    height: auto;
+    margin: 1rem 2rem;
+    width: 100%;
+    padding-left:2rem ;
+}
+
+.sh-box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+}
+.sh-content{
+   display: flex;
+   justify-content: left;
+   align-items: flex-start;
+   margin-left:1rem ;
+   flex-direction: column;
+   padding-left: 2rem;
+}
+.shoe-con{
+    display: inline;
+    font-size: 90px;
+    font-weight: 900;
+    color: #d3d3d3;
+    align-items: flex-start;
+    text-align: left;
+    
+    
+}
+@media screen and (max-width:800px){
+.sh-box{
+    flex-direction: column;
+    }
+    .shoe-con{
+        font-size: 48px;
+    }
+    .center-section1{
+        display: none;
+    }
+    .center-section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* max-width: 900px; */
+        width: 100%;
+        margin: 3rem;
+    }
+    .sh-content{
+        margin: 5px;
+        padding-left: 3px;
+    }
+}
+@media screen and (max-width:400px){
+    .shoe-con{
+        font-size: 40px;
+    }
+}
+.cont-write{
+    display: flex;
+    justify-content: left;
+  /* font-size: 3rem; */
+  font-size: 24px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.collection-sh{
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 9px;
+    padding: 0.5rem 2.5rem;
+    font-size: 16px;
+
+    font-weight: 500;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+.collection-sh:hover{
+    transform: translateY(2px);
+}
+
+.just-img{
+    display: flex;
+    justify-content:right;
+    width: 100%;
+    align-items: flex-end;
+    /* flex-wrap: wrap */
+}
+.just-img img{
+    width: 100%;
+}
+.thnx{
+  font-size: 90px;
+  color: #000;
+}
+
+
+
+/* //productDetailPage */
+
+.backButton{
+    font-size: 16;
+    text-transform: uppercase;
+    background-color: #000;
+    color: rgb(44, 41, 206);
+    padding: 0.35rem 1rem;
+    font-weight: bolder;
+}
+.proddetail{
+ display: flex;
+ justify-content: space-around;
+ flex-direction: row;
+
+}
+@media screen and (max-width:723px){
+    .proddetail{
+        flex-direction: column;
+    }
+}
+
+.detailImage img{
+    width: 400px;
+    height: auto;
+}
+@media screen and (max-width:400px){
+    .detailImage img{
+        width: 100%;
+        height: auto;
+    }
+}
+    
+
+
+.productName{
+    
+    font-family: 'Unica One', cursive; 
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.shoesPrice{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.brandName{
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.RatingP{
+    font-size: 16px;
+    font-weight: 500;
+}
+.aboutProduct{
+    font-size: 18px;
+    font-weight: 400;
+}
+.qty{
+    font-size: 18px;
+    margin: 1rem 0;
+}
+.qtyselect{
+    width: 80px;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.centerAlign button{
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 9px;
+    padding: 0.5rem 2.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+.centerAlign button:hover{
+  transform: translateY(5px);
+}
+.centerAlign{
+    padding: 2rem;
+}
+
+
+
+
+
+
